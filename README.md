@@ -182,6 +182,16 @@ Routing Table : select -> tele ( from the dropped down list)
 
 ![Step4-2-2](/images/step4-routing-rule.png)
 
+Step 4-4: Finally. Hijack the package in the prerouting chain and mark them to route
+
+ I have tested with both tcp and udp. It's working fine.
+
+IP -> Firewall -> Mangle 
+
+![Step4-2-2](/images/mangle1.png)
+
+![Step4-2-2](/images/mangle2.png)
+
 ## 📝 Notes
 
 - Designed for MikroTik RouterOS v7 containers
