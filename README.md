@@ -100,7 +100,7 @@ Example: 192.168.81.0
 
 **CT_GATE**  
 Gateway IP of the VETH bridge  
-Example: 172.18.1.1
+Example: 172.18.0.1
 
 **SOCK5_PASS**  
 Password for SOCKS5 authentication
@@ -133,7 +133,7 @@ Enable the following options:
 
 ⚠ **Important**
 
-Do **NOT** manually create the `Tun2socks` folder.  
+Do **NOT** manually create the `Tun2socks` Root Dir folder.  
 MikroTik will create it automatically.
 
 If this folder already exists, delete it first.  
